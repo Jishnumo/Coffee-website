@@ -1,0 +1,91 @@
+/*importing playfair from google fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap");
+
+:root{
+    --primary-color: #312e2e;
+    --main-color: #deab5f;
+} 
+
+/*utility style*/
+button{
+    padding: 10px 30px;
+    background: var(--main-color);
+    border: none;
+    cursor: pointer;
+}
+
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #100e0f;
+}
+
+/*navigation star*/
+
+nav{
+    color: #fff;
+    display:flex;
+    justify-content: space-around;
+    align-items: center; /*will make the nav part come to center of box*/
+    font-family: sans-serif;
+
+}
+li{
+    display: inline;/*will make the listed nav part like home etc to one line*/
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 40px;
+
+}
+li a:hover{
+    border-bottom:2px solid var(--main-color);
+}
+/*navigation ending*/
+/*header area starting*/
+header{
+    background: url(images/pexels-nao-triponez-129207.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-weight: normal;
+    /*flexbox*/
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    position:relative;
+    text-align: center;
+    font-family: "Playfair Display SC", serif;
+}
+.main-heading{
+    position: absolute;
+    top: 7rem;
+    font-size: 4rem;
+    word-spacing: 10px;
+}
+.primary-heading{
+    position: absolute;
+    bottom: 4rem;
+    font-size: 4rem;
+    word-spacing:10px;
+    margin-bottom: -40px
+}
+.mn-btn{
+    position: absolute;
+    bottom: 2rem;
+    padding: 10px 30px;
+    margin-top:20px;
+    transform: translateY(60px);
+    background: transparent;
+    background: var(--main-color);
+
+}
