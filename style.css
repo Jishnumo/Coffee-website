@@ -12,6 +12,7 @@ button{
     background: var(--main-color);
     border: none;
     cursor: pointer;
+    border-radius: 8px;
 }
 
 /*reset*/
@@ -33,6 +34,7 @@ nav{
     justify-content: space-around;
     align-items: center; /*will make the nav part come to center of box*/
     font-family: sans-serif;
+    padding-top: 15px;
 
 }
 li{
@@ -87,5 +89,51 @@ header{
     transform: translateY(60px);
     background: transparent;
     background: var(--main-color);
+    border: none;
+    cursor: pointer;
+}
+
+/*our story start*/
+#our-story{
+    margin-top: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.img{
+    width: 400px;
+    height: 400px;
+    background: url(images/pexels-chitokan-2183027-removebg-preview\ \(2\).png);
+    background-position: center;
+    background-size: cover;
+}
+
+.title-style{
+    display: flex;
+    align-items: center;
 
 }
+.title{
+    font-family: "Playfair Display SC", serif;
+    font-size: 4rem;
+    color: #fff;
+    transform: translateX(-100px);    
+
+}
+.line {
+    width: 100px;
+    height: 2px;
+    background: #fff;
+    transform: translateX(-120px);
+}
+.section-content p {
+    max-width: 500px;
+    color: #fff;
+    font-family: sans-serif;
+    line-height: 20px;
+    margin: 20px 0;
+  }
+  /*our story end*/
+
+  
