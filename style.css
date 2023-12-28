@@ -285,7 +285,7 @@ hr{
 /*responsiveness*/
 @media only screen and(max-width: 768px) {
     .main-heading,.primary-heading{
-        font-sizee: 2.5rem;
+        font-size: 2.5rem;
 
     }
     #our-story .title{
@@ -313,7 +313,7 @@ hr{
         width: 400px;
       }
     
-      .hr-two {
+      .hr-second {
         display: none;
       }
     
