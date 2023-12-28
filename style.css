@@ -171,4 +171,87 @@ header{
     margin-top: 20px;
     font-family: sans-serif;
   }
+  .product{
+    margin-top: 5rem;
+  }
+.title-three{
+    font-size: 4rem;
+    margin-left: 14rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem ;
+}
 
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    border: 2px solid var(--main-color);
+    padding: 0 20px;
+    height:400px;
+    width: 300px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 4 rem;
+
+
+}
+
+.card-img{
+    width:125px;
+    height: 125px;
+    position: absolute;
+    top: -60px;
+}
+
+.img-one{
+    background: url(Images/1.png);
+    background-position: center;
+    background-size: cover;
+}
+.img-two{
+    background: url(Images/2.png);
+    background-position: center;
+    background-size: cover;
+}
+.img-three{
+    background: url(Images/3.png);
+    background-position: center;
+    background-size: cover;
+}
+.card-title{
+    color: #fff;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+.card .items p{
+    color: #fff;
+    margin: 20px 0;
+    font-family: sans-serif;
+    
+
+}
+/*product ends*/
+/*footer starts*/
+footer{
+    height:50px;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content: center;
+    font-family: sans-serif;
+    color:#fff;
+}
+footer .container{
+    margin: 20px;
+    max-width: 300px;
+    text-align: : center;
+}
