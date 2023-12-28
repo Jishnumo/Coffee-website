@@ -136,4 +136,39 @@ header{
   }
   /*our story end*/
 
+  /*next iage and info start*/
+  .coffee-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10rem;
+
+  }
+
+  .content-section p {
+    max-width: 500px;
+
+  }
+  .img-container{
+    width: 500px;
+    height: 400px;   
+  }
+.img-2{
+    height: 400px;
+    width:400px;
+
+}
+.title-two {
+    font-size: 3rem;
+    color: #fff;
+    font-family: "Playfair Display SC", serif;
+    font-weight: normal;
+  }
   
+  .content-section p {
+    color: white;
+    margin-top: 20px;
+    font-family: sans-serif;
+  }
+
