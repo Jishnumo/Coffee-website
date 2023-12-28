@@ -272,5 +272,54 @@ span{
     justify-content: center;
     font-family: sans-serif;
     color:#fff;
+    padding: 10px 0;
 
 }
+hr{
+    margin-top:40px;
+    color: var(--main-color);
+    width: 100vw;
+
+
+}
+/*responsiveness*/
+@media only screen and(max-width: 768px) {
+    .main-heading,.primary-heading{
+        font-sizee: 2.5rem;
+
+    }
+    #our-story .title{
+        transform: translateX(50px);
+    }
+    #our-story .line{
+        display: none;
+    }
+    .content-section {
+        text-align: center;
+      }
+    
+      #our-story .img-container .img {
+        width: 70%;
+        text-align: center;
+        margin: 0 auto;
+      }
+    
+      .coffee-container .img-container {
+        margin-top: 5rem;
+        width: 50%;
+      }
+    
+      hr {
+        width: 400px;
+      }
+    
+      .hr-two {
+        display: none;
+      }
+    
+      .para {
+        margin-top: 10rem;
+      }
+    }
+
+
