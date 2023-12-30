@@ -5,6 +5,10 @@
     --primary-color: #312e2e;
     --main-color: #deab5f;
 } 
+/* CoUsToM SCROllBAR */
+::-webkit-scrollbar{
+    display: none;
+}
 
 /*utility style*/
 button{
@@ -213,17 +217,17 @@ header{
 }
 
 .img-one{
-    background: url(Images/1.png);
+    background: url(images/1.png);
     background-position: center;
     background-size: cover;
 }
 .img-two{
-    background: url(Images/2.png);
+    background: url(images/2.png);
     background-position: center;
     background-size: cover;
 }
 .img-three{
-    background: url(Images/3.png);
+    background: url(images/3.png);
     background-position: center;
     background-size: cover;
 }
